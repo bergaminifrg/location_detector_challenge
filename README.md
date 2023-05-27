@@ -14,9 +14,9 @@ To run the application, you will need:
 ```
   python main.py {data_source} {input_file_path} {output_file_path}
 ```
-The valid data source types are: csv | database
+- The valid data source types are: csv | database
 
-The valid input and output file types are '.csv' and '.jsonl'
+- The valid input and output file types are '.csv' and '.jsonl'
 
 Example:
 ```
