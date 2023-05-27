@@ -1,5 +1,7 @@
 import os
 import unittest
+import json
+import pandas as pd
 from app import App
 from input_streams.json_stream import JSONStream as JSONInputStream
 from input_streams.csv_stream import CSVStream as CSVInputStream
@@ -10,8 +12,6 @@ from data_sources.csv_data_source import CSVDataSource
 from services.location_service import LocationService
 from strategies.database_location_strategy import DatabaseLocationStrategy
 from strategies.csv_location_strategy import CSVLocationStrategy
-import json
-import pandas as pd
 
 class IntegrationTest(unittest.TestCase):
     thirty_minutes_in_ms = 30 * 60 * 1000

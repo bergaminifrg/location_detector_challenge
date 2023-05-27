@@ -1,5 +1,5 @@
-import unittest
 import os
+import unittest
 from output_streams.csv_stream import CSVStream
 from output_streams.json_stream import JSONStream
 
